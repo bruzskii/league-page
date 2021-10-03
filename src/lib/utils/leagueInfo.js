@@ -42,7 +42,7 @@ export const managers = [
     //   "philosophy": "Your fantasy team's philosophy", // (optional)
        "tradingScale": 10, // 1 - 10 (optional)
        "preferredContact": "Sleeper",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    // },
+     },
   ]
   
   

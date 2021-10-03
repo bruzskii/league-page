@@ -185,13 +185,13 @@
 
     <p>Rookies and 2nd year NFL players are taxi squad eligible. If a player is promoted during their 1st season, they are allowed, per platform rules, to be placed back on the taxi squad the following offseason. Draft compensation for these players does not change upon a claim. <span class="red">YEAR ONE IS THE EXCEPTION TO THIS RULE - ONLY ROOKIES WILL BE ALLOWED ON THE TAXI SQUAD IN THE 2021 FANTASY SEASON.</span></p> 
 	
-	<p>Rookies and 2nd year players acquired in the preseason via waivers are taxi-squad eligible in accordance to platform rules.</p>    
+    <p>Rookies and 2nd year players acquired in the preseason via waivers are taxi-squad eligible in accordance to platform rules.</p>    
 	
-	<p>Players can be promoted to the active roster at any time. Once a player is on a team’s active roster, they cannot be demoted back to the taxi squad until the following offseason.</p>
+    <p>Players can be promoted to the active roster at any time. Once a player is on a team’s active roster, they cannot be demoted back to the taxi squad until the following offseason.</p>
 	
-	<p>Taxi squad players are allowed to be traded off the taxi squad, but they must be placed on the active roster of the receiving team. Sleeper support notes that the sending team should not have to elevate the player to the active roster prior to being traded. However, if the platform ends up requiring this, and thus forcing a drop of another player prior to the trade being made, the sending team will receive the dropped player back after the trade via commissioner action without that player being subject to waivers. However, this must be declared prior to the trade being approved and finalized by the commissioner.</p>
+    <p>Taxi squad players are allowed to be traded off the taxi squad, but they must be placed on the active roster of the receiving team. Sleeper support notes that the sending team should not have to elevate the player to the active roster prior to being traded. However, if the platform ends up requiring this, and thus forcing a drop of another player prior to the trade being made, the sending team will receive the dropped player back after the trade via commissioner action without that player being subject to waivers. However, this must be declared prior to the trade being approved and finalized by the commissioner.</p>
 	
-	<h4 bind:this={oneThreeOne}>1.2.5 Veto/Trade Process</h4>
+    <h4 bind:this={oneThreeOne}>1.2.5 Veto/Trade Process</h4>
     <div class="subBlock">
         <p>A total of 7 veto votes are required to veto a trade. Vetoes are only appropriate in instances of collusion or an egregious mismatch of value (i.e. CMC for a backup kicker). Not liking a trade does not warrant a veto.</p>
     </div>    

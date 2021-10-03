@@ -100,142 +100,101 @@
 </style>
 
 <div class="constitution">
-    <h1 class="noUnderscore">LEGENDS LEAGUE CONSTITUTION</h1>
+    <h1 class="noUnderscore">Drunken Dynasty Bylaws (unofficial)</h1>
     
+    <h2 class="noUnderscore">Official league bylaws, with up-to-date changelog and comments, can be found <a href="https://docs.google.com/document/d/1Ju68JXJpY2fGQatjGa22egz_Xs-7oeIx/edit?usp=sharing&ouid=101131312870884818602&rtpof=true&sd=true">here.</a>
+</h2>
+	
+    <h2 class="noUnderscore">Overview</h2>
+	<p>All bylaws are an explanation or extension of the rules set on Sleeper. This document doesn’t outline all aspects of the scoring system, or describe how processes on the host websites work. However, any change in rules within the league hosts will be subject to league discussion/vote, as would any rule within the Bylaws.</p>
+	
     <h2 class="noUnderscore">TABLE OF CONTENTS</h2>
     
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(one)}>Section 1: Roster</h3>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(oneOne)}>1.1 Positional Breakdown</h4>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneOneOne)}>1.1.1 Position Maximums</h5>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(oneTwo)}>1.2 Trading</h4>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoOne)}>1.2.1 Trade Collusion</h5>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoTwo)}>1.2.2 Lending Players Prohibition</h5>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoThree)}>1.2.3 Trade Deadline</h5>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoFour)}>1.2.4 Trade Restrictions</h5>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoFive)}>1.2.5 Veto/Trade Process</h5>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(oneThree)}>1.3 Waiver Wire</h4>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(one)}>Section 1: Team Setup</h3>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(oneOne)}>1.1 Roster Size</h4>
+	<h4 class="noUnderscore clickable" on:click={() => goToSection(oneTwo)}>1.2 Retired Players</h4>
+	<h4 class="noUnderscore clickable" on:click={() => goToSection(oneThree)}>1.3 Taxi Squads</h4>
+            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneThreeOne)}>1.3.1 Claiming Players</h5>
     
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(two)}>Section 2: Drafting</h3>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(two)}>Section 2: Scoring</h3>
     
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(twoOne)}>2.1 Draft Order</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(twoTwo)}>2.2 Rookie Drafts</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(twoThree)}>2.3 Draft Day Trades</h4>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(three)}>Section 3: Schedule</h3>
     
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(three)}>Section 3: Scoring System</h3>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(threeOne)}>3.1 Regular Season</h4>
+	<h4 class="noUnderscore clickable" on:click={() => goToSection(threeTwo)}>3.2 Playoffs</h4>
     
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(threeOne)}>3.1 Voting on Scoring System</h4>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(four)}>Section 4: Rookie Draft</h3>
     
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(four)}>Section 4: Postseason</h3>
-    
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourOne)}>4.1 Playoffs</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourTwo)}>4.2 Playoff Tiebreakers</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourOne)}>4.1 Order of Picks</h4>
 
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(five)}>Section 5: Tanking Policy</h3>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(five)}>Section 5: Waivers & Free Agents</h3>
     
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveOne)}>5.1 League Tanking Policy</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveOne)}>5.1 FAAB</h4>
+	<h4 class="noUnderscore clickable" on:click={() => goToSection(fiveTwo)}>5.2 In-Season</h4>
+	<h4 class="noUnderscore clickable" on:click={() => goToSection(fiveThree)}>5.3 Offseason</h4>
 
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(six)}>Section 6: Replacing Managers</h3>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(six)}>Section 6: Trading</h3>
     
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixOne)}>6.1 Removing Managers</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixTwo)}>6.2 Replacing Managers</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixThree)}>6.3 Replacement Incentive</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixOne)}>6.1 General Overview</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixTwo)}>6.2 Veto Power</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixThree)}>6.3 Pick Trading Stipulation</h4>
 
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(seven)}>Section 7: League Finances</h3>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(seven)}>Section 7: Annual Managers Meeting & Rule Changes</h3>
+   
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(eight)}>Section 8: Dues and Payments</h3>
     
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenOne)}>7.1 League Dues</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixTwo)}>7.2 Payout</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixThree)}>7.3 Raising Dues</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(eightOne)}>8.1 League Dues</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(eightTwo)}>8.2 Payouts</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(eightThree)}>8.3 Final Payout</h4>
     
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(nine)}>Section 9: Commissioner Responsibilities</h3>
     
-    <hr />
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(nineOne)}>9.1 League Dues</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(nineTwo)}>9.2 League Waitlist</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(nineThree)}>9.3 Vice-Commissioner</h4>
     
-    <h2 class="sectionHeading" bind:this={one}>Section 1 Roster Breakdown</h2>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(ten)}>Section 10: Ethos</h3>
     
-    <h3 class="subSectionHeading" bind:this={oneOne}>1.1 Positional Breakdown</h3>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(tenOne)}>10.1 Tanking/Abandonment</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(tenTwo)}>10.2 Retirement</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(tenThree)}>10.3 Conclusion</h4>
+	
+	<hr />
     
-    <p>28 Total Players</p>
+    <h2 class="sectionHeading" bind:this={one}>Section 1 Team Setup</h2>
     
-    <p class="underscore">Starters</p>
-    <ul>
-        <li>QB</li>
-        <li>RB</li>
-        <li>RB</li>
-        <li>WR</li>
-        <li>WR</li>
-        <li>TE</li>
-        <li>FLEX (RB/WR/TE)</li>
-        <li>FLEX (RB/WR)</li>
-        <li>D/ST</li>
-        <li>K</li>
-    </ul>
+    <h3 class="subSectionHeading" bind:this={oneOne}>1.1 Roster Size</h3>
     
-    <p>18 Bench (Expanded by 5 between the keague draft and start of regular season)</p>
+    <p>Active Rosters are a maximum of 30 players consisting of 21 bench spots and 9 starters. Starting lineups consist of 1 QB, 2 RBs, 2 WRs, 1 TE, 2 Flex (RB/WR/TE) and 1 Superflex (QB/RB/WR/TE).</p>
+    
+    <p>No IR spots are made available.</p>
 
-    <p>1 IR Spots (Player must be labeled as IR, Out, or Covid in the Sleeper App)</p>
-    
-        <h4 bind:this={oneOneOne}>1.1.1 Position Maximums</h4>
-        
-        <div class="subBlock">
-            <table class="positionMaximums">
-                <tr><td>QB</td><td class="right">3 active, 5 total</td></tr>
-                <tr><td>RB</td><td class="right">20</td></tr>
-                <tr><td>WR</td><td class="right">20</td></tr>
-                <tr><td>TE</td><td class="right">10</td></tr>
-                <tr><td>D/ST</td><td class="right">3</td></tr>
-                <tr><td>K</td><td class="right">3</td></tr>
-            </table>
-        </div>
+    <p>During the off-season, Sleeper will allow newly-drafted rookies to be placed on active rosters without cutting players. While this is allowed, players are bound by platform rules regarding these overages. Transactions may be restricted by the platform until they are within compliance of platform rules.</p>
 
-
-    <h3 class="subSectionHeading" bind:this={oneTwo}>1.2 Trading</h3>
+    <h3 class="subSectionHeading" bind:this={oneTwo}>1.2 Retired Players</h3>
     
-    <p>Trading of players and draft picks (up to 3 drafts away) are allowed. Trades will process immediately and will be reversed if vetoed or under investigation for collusion. Tradable assets include players, draft picks, and FAAB $.</p>
+    <p>Should a player retire and remain active on the platform (see Andrew Luck 2019-2020), that player is treated just like any active player. This player will count against the team’s roster space until dropped/traded.</p>
+	
+    <p>If a retired player is removed from the platform while on an active roster, the manager with that player may place a petition to the commissioner to have that player reinstated as a member of their team should they ever unretire. The petition needs to be placed, and approved, prior to the manager filling the newly-opened spot on their team.</p>    
     
-    <h4 bind:this={oneTwoOne}>1.2.1 Trade Collusion</h4>
-    <div class="subBlock">
-        <p>If any owners are suspected of accepting bribes/offering bribes to enhance their/another owners team via trade, trading any assets other than fantasy players, draft picks, FAAB $, or otherwise found guilty of engaging in any form of collusion*, all parties involved in the trade will be susceptible to punishment. The punishments will go as followed:</p>
-        
-        <ul>
-            <li>First Offense – Immediate reduction of FAAB budget by 80%</li>
-            <li>Second Offense – Immediate freeze on all transaction types for the next 18 weeks of regular season and playoff fantasy football games, including trades and waiver wire bids</li>
-            <li>Third Offense – A league meeting of all members not involved in any of the improper trades/activity in question will take place to discuss next steps.</li>
-        </ul>
-
-        <p>All trades that are found guilty of collusion, will be reversed/denied. If the trade had affected the outcome of previous games, the results of those games will be revised.  </p>
-
-        <p>*Collusion includes the organizing of veto votes against an acceptable trade.</p>
-
-        <p>The commissioner will err on the side of letting owners manage their teams the way they see fit. Any collusion will need to be clear. The commissioner reserves the right to step in and at the very least assess the thinking of any team involved in a heavily lop-sided trade. </p>
-    </div>
-
-    <h4 bind:this={oneTwoTwo}>1.2.2 Lending Players Prohibition</h4>
-    <div class="subBlock">
-        <p>Any player traded from a team may not be re-acquired via trade within 6 weeks of the original trade. Any teams involved in this behavior will be subject to the aforementioned collusion punishments.</p>
-    </div>
+    <h3 bind:this={oneThree}>1.3 Taxi Squads</h3>
     
-    <h4 bind:this={oneTwoThree}>1.2.3 Trade Deadline</h4>
-    <div class="subBlock">
-        <p>The trade deadline will be set for the Saturday of the week 11 games of the NFL season.</p>
-    </div>
-    
-    <h4 bind:this={oneTwoFour}>1.2.4 Trade Restrictions</h4>
-    <div class="subBlock">
-        <p>You will not be able to trade draft picks that are more than 3 drafts away. For example, during the 2021 season you cannot trade any picks in or after the 2025 draft. You may only trade FAAB $ from the current season.</p>
-    </div>
-    
-    <h4 bind:this={oneTwoFive}>1.2.5 Veto/Trade Process</h4>
+    <p>Each team is allotted 6 taxi squad spots (as voted on 3/1/21). These spots provide teams with an option to stash rookies or younger players into additional slots that do not count against a team's roster limit. These players cannot be used in your starting lineup unless elevated to the active roster.</p>
+
+    <p>To designate a player to the taxi squad, they must be demoted to the taxi squad on Sleeper prior to the designation deadline, which is currently the start of the regular season. Players cannot be added to taxi squads during the season unless platform rules otherwise allow.</p>
+
+    <p>Rookies and 2nd year NFL players are taxi squad eligible. If a player is promoted during their 1st season, they are allowed, per platform rules, to be placed back on the taxi squad the following offseason. Draft compensation for these players does not change upon a claim. <span class="red">YEAR ONE IS THE EXCEPTION TO THIS RULE - ONLY ROOKIES WILL BE ALLOWED ON THE TAXI SQUAD IN THE 2021 FANTASY SEASON.</span></p> 
+	
+	<p>Rookies and 2nd year players acquired in the preseason via waivers are taxi-squad eligible in accordance to platform rules.</p>    
+	
+	<p>Players can be promoted to the active roster at any time. Once a player is on a team’s active roster, they cannot be demoted back to the taxi squad until the following offseason.</p>
+	
+	<p>Taxi squad players are allowed to be traded off the taxi squad, but they must be placed on the active roster of the receiving team. Sleeper support notes that the sending team should not have to elevate the player to the active roster prior to being traded. However, if the platform ends up requiring this, and thus forcing a drop of another player prior to the trade being made, the sending team will receive the dropped player back after the trade via commissioner action without that player being subject to waivers. However, this must be declared prior to the trade being approved and finalized by the commissioner.</p>
+	
+	<h4 bind:this={oneThreeOne}>1.2.5 Veto/Trade Process</h4>
     <div class="subBlock">
         <p>A total of 7 veto votes are required to veto a trade. Vetoes are only appropriate in instances of collusion or an egregious mismatch of value (i.e. CMC for a backup kicker). Not liking a trade does not warrant a veto.</p>
-    </div>
-    
-    
-    
-    <h3 bind:this={oneThree}>1.3 Waiver Wire</h3>
-    
-    <p>FAAB Waiver wire system. Each team will begin the season with $100. $0 bids are allowed. Bids will process Thursdays and Sundays at 9AM EST.</p>
-
-    <p>FAAB budgets will reset each season in January.</p>
-    
+    </div>    
     
     <h2 class="sectionHeading" bind:this={two}>Section 2 Drafting</h2>
     

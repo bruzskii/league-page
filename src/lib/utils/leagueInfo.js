@@ -29,7 +29,7 @@ export const managers = [
        "location": "Cedar Rapids, IA", // (optional)
        "bio": "The Commish",
        "photo": "/managers/Tyler.jpg", // square ratio recommended (no larger than 500x500)
-       "fantasyStart": null, // (optional) when did the manager start playing fantasy football
+       "fantasyStart": "2005", // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "dal", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "mode": "Dynasty", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
        "rival": {

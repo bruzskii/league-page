@@ -100,4 +100,4 @@
 </style>
 
 <div class="constitution">
-    <h1 class="noUnderscore"><a href="https://docs.google.com/document/d/1Ju68JXJpY2fGQatjGa22egz_Xs-7oeIx/edit?usp=sharing&ouid=101131312870884818602&rtpof=true&sd=true">Drunken Dynasty League Bylaws</a></h1>
+    <h1 class="noUnderscore"><a href="https://bit.ly/2YbkKN1">Drunken Dynasty League Bylaws</a></h1>

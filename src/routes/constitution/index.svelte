@@ -80,5 +80,5 @@
 </style>
 
 <div class="constitution">
-    <h1 class="noUnderscore">LEGENDS LEAGUE CONSTITUTION</h1>
+    <h1 class="noUnderscore"><a href="https://bit.ly/2YbkKN1">Drunken Dynasty League Bylaws HERE</a></h1>
 </div>

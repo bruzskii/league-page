@@ -8,7 +8,7 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 /*   STEP 2   */
 export const homepageText = `
   <p>This is the unofficial website of the Drunken Dynasty League.</p>
-  <p>The official league podcast, the Hangover Dynasty Podcast, can be found here: https://anchor.fm/the-hangover-dynastypod</p>
+  <p>The official league podcast is <a href="https://anchor.fm/the-hangover-dynastypod">the Hangover Dynasty Podcast</a></p>
   <p>We are still working on changes and updates!</p>
 `;
 

@@ -25,7 +25,7 @@ export const managers = [
 {
        "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
        "name": "Tyler Bruzek",
-       "tookOver": "League Inception - 2021", // (optional) used if a manager took over a team, delete this line or change to null otherwise
+       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Cedar Rapids, IA", // (optional)
        "bio": "The Commish",
        "photo": "/managers/Tyler.jpg", // square ratio recommended (no larger than 500x500)
@@ -33,16 +33,82 @@ export const managers = [
        "favoriteTeam": "dal", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "mode": "Dynasty", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
        "rival": {
-         name: "Rob", // Can be anything (usually your rival's name)
+         name: "Rob Kilberger", // Can be anything (usually your rival's name)
          link: 4, // manager array number within this array, or null to link back to all managers page
-         image: null, // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+         image: "/managers/Rob.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
        },
        "favoritePlayer": 3294, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
        "valuePosition": "QB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
-       "rookieOrVets": null, // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-       "philosophy": "Your fantasy team's philosophy", // (optional)
-       "tradingScale": 10, // 1 - 10 (optional)
+       "rookieOrVets": "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
+       "philosophy": "If winning doesn't matter, then why do we keep score?", // (optional)
+       "tradingScale": 7, // 1 - 10 (optional)
        "preferredContact": "Sleeper",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+     },
+  {
+       "roster": 6,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "name": "Nate Svec",
+       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+       "location": "Solon, IA", // (optional)
+       "bio": "Suck it  nerds",
+       "photo": "/managers/Nate.jpg", // square ratio recommended (no larger than 500x500)
+       "fantasyStart": 2009, // (optional) when did the manager start playing fantasy football
+       "favoriteTeam": "chi", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+       "mode": "Dynasty", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+       "rival": {
+         name: "Blake Kilberger", // Can be anything (usually your rival's name)
+         link: 3, // manager array number within this array, or null to link back to all managers page
+         image: "/managers/Blake.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+       },
+       "favoritePlayer": 461, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+       "valuePosition": "RB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+       "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
+       "philosophy": "Don't suck", // (optional)
+       "tradingScale": 1, // 1 - 10 (optional)
+       "preferredContact": "Carrier Pigeon",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+     },
+   {
+       "roster": 4,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "name": "Blake Kilberger",
+       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+       "location": "Sucksville, USA", // (optional)
+       "bio": "If it loves it fucks",
+       "photo": "/managers/Blake.jpg", // square ratio recommended (no larger than 500x500)
+       "fantasyStart": 2007, // (optional) when did the manager start playing fantasy football
+       "favoriteTeam": "dal", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+       "mode": "Rebuild", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+       "rival": {
+         name: "Nate Svec", // Can be anything (usually your rival's name)
+         link: 2, // manager array number within this array, or null to link back to all managers page
+         image: "/managers/Nate.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+       },
+       "favoritePlayer": 333, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+       "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+       "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
+       "philosophy": "Fuck it - We'll do it live!", // (optional)
+       "tradingScale": 7, // 1 - 10 (optional)
+       "preferredContact": "Discord",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+     },
+  {
+       "roster": 5,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "name": "Rob Kilberger",
+       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+       "location": "Palo, IA", // (optional)
+       "bio": "Fear the Fish",
+       "photo": "/managers/Rob.jpg", // square ratio recommended (no larger than 500x500)
+       "fantasyStart": 1991, // (optional) when did the manager start playing fantasy football
+       "favoriteTeam": "dal", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+       "rival": {
+         name: "Tyler Bruzek", // Can be anything (usually your rival's name)
+         link: 1, // manager array number within this array, or null to link back to all managers page
+         image: "/managers/Tyler.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+       },
+       "favoritePlayer": 3294, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+       "valuePosition": "TE", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+       "rookieOrVets": "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
+       "philosophy": "If at first you don't succeed, TRADE", // (optional)
+       "tradingScale": 10, // 1 - 10 (optional)
+       "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
      },
   ]
   
